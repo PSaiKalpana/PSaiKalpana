@@ -1,0 +1,14 @@
+package test;
+import java.util.*;
+public class Linkedlist{
+ public static void main(String[] args){
+     linkedlist<String> arraylist=new Arraylist<String>();
+     linkedlist.add("kalpana");
+     linkedlist.add("jahnavi");
+     linkedlist.add("sangeetha");
+   System.out.println(linkedlist);
+   arraylist.remove(2);
+   System.out.println(linkedlist);
+   System.out.println(linkedlist.getLast());
+}
+}

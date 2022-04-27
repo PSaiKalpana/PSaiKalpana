@@ -1,0 +1,13 @@
+package test;
+import java.util.*;
+public class Arraylist{
+ public static void main(String[] args){
+     ArrayList<String> arraylist=new ArrayList<String>();
+     arraylist.add("kalpana");
+     arraylist.add("jahnavi");
+     arraylist.add("sangeetha");
+   System.out.println(arraylist);
+   arraylist.remove(2);
+   System.out.println(arraylist);
+}
+}

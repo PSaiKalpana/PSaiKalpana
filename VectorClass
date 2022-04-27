@@ -1,0 +1,23 @@
+// using add() method
+v1.add(11);
+v1.add(-65);
+v1.add("vector");
+v1.add("Technicalskills");
+v1.add(76.54);
+
+// Printing the vector elements to the console
+System.out.println("Vector v1 is ="+ v1);
+
+// Case 2
+// Creating generic vector
+Vector<Integer> v2 = new Vector<Integer>();
+
+//Adding custom elements
+// using add() method
+v2.add(32);
+v2.add(43);
+v2.add(49);
+// Printing the vector elements to the console
+System.out.println("Vector v2 is =" + v2);
+	}
+}
